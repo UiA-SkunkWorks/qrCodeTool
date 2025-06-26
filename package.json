@@ -10,9 +10,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
-    "zxing-wasm": "^2.2.0"
-  },
-  "devDependencies": {
+    "zxing-wasm": "^2.2.0",
     "@parcel/transformer-sass": "^2.15.4"
-  }
+  },
+  "devDependencies": {}
 }
