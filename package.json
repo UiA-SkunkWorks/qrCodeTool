@@ -2,13 +2,17 @@
   "name": "qr",
   "version": "1.0.0",
   "description": "Tiny tool that enables QR code generation without affiliation, third party tracking etc. Just generat the QR code you need and it is yours.",
-  "source": "index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "dev": "parcel index.html --open"
+    "build": "parcel build --public-url / --dist-dir dist",
+    "dev": "parcel serve src/index.html --public-url / --dist-dir dist --open"
   },
   "dependencies": {
+    "bootstrap": "^5.3.7",
     "zxing-wasm": "^2.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4"
   }
 }
