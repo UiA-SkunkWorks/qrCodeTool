@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url ./ --dist-dir dist",
-    "dev": "parcel serve src/index.html --public-url ./ --dist-dir dist --open"
+    "build": "parcel build --public-url qrCodeTool/ --dist-dir dist",
+    "dev": "parcel serve src/index.html --public-url ./qrCodeTool/ --dist-dir dist --open"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
