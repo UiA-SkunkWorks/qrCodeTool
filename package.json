@@ -2,8 +2,11 @@
   "name": "qr",
   "version": "1.0.0",
   "description": "Tiny tool that enables QR code generation without affiliation, third party tracking etc. Just generat the QR code you need and it is yours.",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build",
+    "dev": "parcel index.html --open"
   },
   "dependencies": {
     "zxing-wasm": "^2.2.0"
